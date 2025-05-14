@@ -1,2 +1,5 @@
-"Data/cases_deaths.csv" 
-"Data/vaccinations_global.csv" 
+# Ignore large data files
+Data/*.csv
+
+# Virtual environment
+venv/
