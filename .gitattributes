@@ -1,3 +1,2 @@
-# Chỉ theo dõi các tệp CSV lớn bằng Git LFS
-Data/cases_deaths.csv filter=lfs diff=lfs merge=lfs -text
-Data/vaccinations_global.csv filter=lfs diff=lfs merge=lfs -text
+# Không sử dụng Git LFS
+# Các tệp CSV lớn đã được thêm vào .gitignore
