@@ -5,8 +5,18 @@
 # Virtual environment
 venv/
 venv
+
+# Data files to ignore
 Data/cases_deaths.csv
 Data/vaccinations_global.csv
+Data/excess_mortality.csv
+Data/hospital.csv
+Data/oxcgrt_policy.csv
+Data/testing.csv
+Data/tracking_r.csv
+Data/vaccinations_age.csv
+Data/vaccinations_manufacturer.csv
+
 # Other files to ignore
 .DS_Store
 __pycache__/
