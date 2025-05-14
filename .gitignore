@@ -1,5 +1,13 @@
-# Ignore all data files
-Data/*.csv
+# Ignore large data files (>15MB)
+# Add large CSV files manually with their names
+# Example: Data/large_file.csv
 
 # Virtual environment
 venv/
+venv
+Data/cases_deaths.csv
+Data/vaccinations_global.csv
+# Other files to ignore
+.DS_Store
+__pycache__/
+*.pyc
