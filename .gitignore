@@ -1,11 +1,5 @@
-# Ignore large data files
-Data/cases_deaths.csv
-Data/vaccinations_global.csv
-Data/vaccinations_manufacturer.csv
-Data/oxcgrt_policy.csv
-
-# Files smaller than 10MB can be included in git
-# Files between 10-30MB are included but use with caution
+# Ignore all data files
+Data/*.csv
 
 # Virtual environment
 venv/
